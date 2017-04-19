@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Clicker</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="title_activity_fourth">Fourth</string>
+    <string name="title_activity_bluetooth">Bluetooth</string>
+
+    <!--bluetooth activity strings-->
+    <string name="status">Status</string>
+    <string name="List">List paired Devices</string>
+    <string name="Find">Search new Devices</string>
+    <string name="heading">Please connect your IPSUM</string>
+</resources>

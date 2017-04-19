@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="right" >
+
+        <Button
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/button3"
+
+
+            android:textColor="#006cdf" />
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="crop name"
+            android:id="@+id/textView6"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.03"
+            android:textAlignment="center"
+            android:textColor="#0058ff"
+            android:textColorHighlight="#53ec6f"
+            android:textSize="40sp"
+            android:theme="@style/AppTheme"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#030b01"
+            android:textIsSelectable="false" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView7"
+        android:layout_weight="1.01" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="conform"
+        android:id="@+id/btn5"
+        style="@style/Animation.Design.BottomSheetDialog"
+        android:clickable="true"
+        android:textColor="#006cdf" />
+
+</LinearLayout>
