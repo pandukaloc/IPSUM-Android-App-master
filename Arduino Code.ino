@@ -34,7 +34,7 @@ void setup() {
   Serial.print(" %");
 
   delay(1000);
-  int chk = DHT.read11(DHT11_PIN);
+  int unDef = DHT.read11(DHT11_PIN);
 
   Serial.print("Temp: ");
   Serial.print(DHT.temperature);
